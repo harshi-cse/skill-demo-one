@@ -4,6 +4,6 @@ import org.junit.*;
 public class SkillDemoOneTest {
     @Test
     public void testFactor() {
-        assertEquals(false, SkillDemoOne.isFactorOf(4, 2));   // this test will fail
+        assertEquals(true, SkillDemoOne.isFactorOf(4, 2));   // this test will pass
     }
 }
